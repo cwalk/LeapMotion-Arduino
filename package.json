@@ -1,0 +1,20 @@
+{
+  "name": "leapmotion",
+  "version": "1.0.0",
+  "description": "Leap Motion projects involving the Arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cwalk/LeapMotion-Arduino"
+  },
+  "author": "Clayton Walker",
+  "license": "ISC",
+  "dependencies": {
+    "cylon": "^1.2.0",
+    "cylon-firmata": "^0.23.0",
+    "cylon-leapmotion": "^0.20.0",
+  }
+}
