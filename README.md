@@ -2,6 +2,10 @@
 
 Leap Motion projects involving the Arduino
 
+## YouTube
+
+YouTube: 
+
 ## Setup
 
 Make sure you have nodejs and npm installed.
@@ -54,12 +58,8 @@ Something important to note with all scripts involving the servo motors (`servo.
 
 `doubleArmServo.js` is the same as `singleArmServo.js` but this uses 2 servo mounts, and actually mimics both of your hands as interpretted through the Leap Motion. If only 1 hand is present, only 1 servo will move (no matter which hand you use, the same servo will move if only 1 hand is present). If you put both hands over the leap motion, each servo mount will mimic a hand. 
 
-I recommend putting the servo mounts parallel horizontally in front of you and the Leap Motion, so it's very easy to see how they mimic your hands. First figure out which servo moves when only 1 hand is present. Then put that on the left side, and the other servo on the right side. Then, run the script, and when the servos are ready, put your left hand into the view of the Leap Motion, the left servo should mimic it. *Now* put your right hand in the view of the Leap Motion, and the right servo should mimic your right hand. Use the YouTube videos as reference.
+I recommend putting the servo mounts parallel horizontally in front of you and the Leap Motion, so it's very easy to see how they mimic your hands. First figure out which servo moves when only 1 hand is present. Then put that on the left side, and the other servo on the right side. Then, run the script, and when the servos are ready, put your left hand into the view of the Leap Motion, the left servo should mimic it. **Now** put your right hand in the view of the Leap Motion, and the right servo should mimic your right hand. Use the YouTube videos as reference.
 
 ## irProximitySensor and sonarFinder
 
 `irProximitySensor.js` and `sonarFinder.js` use an infrared proximity and maxbotix sonar sensor respectively, to calculate the distance from an object, while mounted on a servo arm, which can be controlled by the Leap Motion.
-
-## YouTube
-
-YouTube: 
