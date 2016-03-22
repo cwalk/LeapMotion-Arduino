@@ -42,9 +42,23 @@ I will include the circuit diagrams below, with a small description about what t
 
 `servo.js` with a servo similar to this one: https://www.adafruit.com/products/1967 connected on pins 3 and 13, this script just rotates the servos at a specfied angle over and over when it detects your hand over the Leap Motion.
 
+Something important to note with all scripts involving the servo motors (`servo.js`, `singleArmServo.js`, and `doubleArmServo.js`) you need to wait until the servos are "ready." After you run the node script, keep your hands outside the view of the Leap Motion. Once the servos are "ready" you will see them twitch slightly, and hear the electricity running through them. Now you can put your hand over the view of the Leap Motion. Use the YouTube videos as reference if you are still confused.
+
 ## singleArmServo
 
 `singleArmServo.js` has the same servo connected to pins 3 and 13, but actually mimics your hands position. Your hand's Pitch and Yaw will be translated as the Pitch and Yaw in the servo mount.
+
+`lookAtPositions.js` is similar to `singleArmServo.js` but you can enter what x,y,z position you want the servo to point to, and it rotates to that position. You don't use the Leap Motion in this program.
+
+## doubleArmServo
+
+`doubleArmServo.js` is the same as `singleArmServo.js` but this uses 2 servo mounts, and actually mimics both of your hands as interpretted through the Leap Motion. If only 1 hand is present, only 1 servo will move (no matter which hand you use, the same servo will move if only 1 hand is present). If you put both hands over the leap motion, each servo mount will mimic a hand. 
+
+I recommend putting the servo mounts parallel horizontally in front of you and the Leap Motion, so it's very easy to see how they mimic your hands. First figure out which servo moves when only 1 hand is present. Then put that on the left side, and the other servo on the right side. Then, run the script, and when the servos are ready, put your left hand into the view of the Leap Motion, the left servo should mimic it. *Now* put your right hand in the view of the Leap Motion, and the right servo should mimic your right hand. Use the YouTube videos as reference.
+
+## irProximitySensor and sonarFinder
+
+`irProximitySensor.js` and `sonarFinder.js` use an infrared proximity and maxbotix sonar sensor respectively, to calculate the distance from an object, while mounted on a servo arm, which can be controlled by the Leap Motion.
 
 ## YouTube
 
