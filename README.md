@@ -34,13 +34,19 @@ I will include the circuit diagrams below, with a small description about what t
 
 `blink.js` turns on a LED connected to pin 13 when the Leap Motion detects your hand is over it
 
+![Blink Circuit Diagram](/blink_bb.png?raw=true "Blink Circuit Diagram")
+
 ## Blink2
 
 `Blink2.js` turns on 2 LEDs connected to pins 13 and 9 when the Leap Motion detects your hand is over it
 
+![Blink2 Circuit Diagram](/blink2_bb.png?raw=true "Blink2 Circuit Diagram")
+
 ## gestureBlink
 
 `gestureBlink.js` turns on 4 different LEDs, connected to pins 8-11 depending on what gesture is identified by the Leap Motion.
+
+![gestureBlink Circuit Diagram](/gestureBlink_bb.png?raw=true "gestureBlink Circuit Diagram")
 
 ## servo
 
@@ -48,11 +54,15 @@ I will include the circuit diagrams below, with a small description about what t
 
 Something important to note with all scripts involving the servo motors (`servo.js`, `singleArmServo.js`, and `doubleArmServo.js`) you need to wait until the servos are "ready." After you run the node script, keep your hands outside the view of the Leap Motion. Once the servos are "ready" you will see them twitch slightly, and hear the electricity running through them. Now you can put your hand over the view of the Leap Motion. Use the YouTube videos as reference if you are still confused.
 
+![Servo Circuit Diagram](/servo.png?raw=true "Servo Circuit Diagram")
+
 ## singleArmServo
 
 `singleArmServo.js` has the same servo connected to pins 3 and 13, but actually mimics your hands position. Your hand's Pitch and Yaw will be translated as the Pitch and Yaw in the servo mount.
 
 `lookAtPositions.js` is similar to `singleArmServo.js` but you can enter what x,y,z position you want the servo to point to, and it rotates to that position. You don't use the Leap Motion in this program.
+
+Diagram is same as `servo.js`
 
 ## doubleArmServo
 
@@ -60,6 +70,12 @@ Something important to note with all scripts involving the servo motors (`servo.
 
 I recommend putting the servo mounts parallel horizontally in front of you and the Leap Motion, so it's very easy to see how they mimic your hands. First figure out which servo moves when only 1 hand is present. Then put that on the left side, and the other servo on the right side. Then, run the script, and when the servos are ready, put your left hand into the view of the Leap Motion, the left servo should mimic it. **Now** put your right hand in the view of the Leap Motion, and the right servo should mimic your right hand. Use the YouTube videos as reference.
 
+![Double Servo Circuit Diagram](/doubleArmServo_bb.png?raw=true "Double Servo Circuit Diagram")
+
 ## irProximitySensor and sonarFinder
 
 `irProximitySensor.js` and `sonarFinder.js` use an infrared proximity and maxbotix sonar sensor respectively, to calculate the distance from an object, while mounted on a servo arm, which can be controlled by the Leap Motion.
+
+![IR Proximity Circuit Diagram](/irProximitySensor_bb.png?raw=true "IR Proximity Circuit Diagram")
+
+![Sonar Circuit Diagram](/sonarFinder_bb.png?raw=true "Sonar Circuit Diagram")
