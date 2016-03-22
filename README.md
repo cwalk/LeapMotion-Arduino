@@ -44,7 +44,7 @@ I will include the circuit diagrams below, with a small description about what t
 
 ## singleArmServo
 
-`singleArmServo.js` 
+`singleArmServo.js` has the same servo connected to pins 3 and 13, but actually mimics your hands position. Your hand's Pitch and Yaw will be translated as the Pitch and Yaw in the servo mount.
 
 ## YouTube
 
