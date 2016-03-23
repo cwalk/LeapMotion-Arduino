@@ -18,6 +18,8 @@ Install cylonjs, a robotics javascript framework. More info here: https://cylonj
 
 For more info on getting your Arduino environment set up, check out: http://cylonjs.com/documentation/platforms/arduino/
 
+For more info on Leap Motion, check out: http://cylonjs.com/documentation/drivers/leapmotion/
+
 Clone the directory: `git clone https://github.com/cwalk/LeapMotion-Arduino`
 
 Navigate to the directory and do an `npm install` and you should have cylon, cylon-firmata, and cylon-leapmotion.
