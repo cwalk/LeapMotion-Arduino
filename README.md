@@ -5,8 +5,11 @@ Leap Motion projects involving the Arduino
 ## YouTube
 
 -LEDs: https://www.youtube.com/watch?v=oiOqpjFBkfw
+
 -1 servo: https://www.youtube.com/watch?v=PJ9RhOnxawc
+
 -2 servos: https://www.youtube.com/watch?v=Hj7f2HDJma0
+
 -IR sensor: https://www.youtube.com/watch?v=V7-19bcROe0
 
 ## Setup
