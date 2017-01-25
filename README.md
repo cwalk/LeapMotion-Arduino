@@ -4,6 +4,8 @@ Leap Motion projects involving the Arduino
 
 ## YouTube
 
+Playlist: https://www.youtube.com/playlist?list=PLgAD2y-6wgwq3oRHAygzXA1gSvBQISCYR
+
 -LEDs: https://www.youtube.com/watch?v=oiOqpjFBkfw
 
 -1 servo: https://www.youtube.com/watch?v=PJ9RhOnxawc
